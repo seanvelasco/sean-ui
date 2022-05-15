@@ -5,7 +5,8 @@
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "seanvelasco <seanvelasco@ieee.org> (seanvelasco.com)",
   "license": "ISC",
