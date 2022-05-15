@@ -1,6 +1,6 @@
 {
   "name": "@seanvelasco/sean-ui",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Minimalist React components library",
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
