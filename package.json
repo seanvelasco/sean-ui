@@ -34,8 +34,5 @@
     "components",
     "library"
   ],
-  "types": "./build/index.d.ts",
-  "publishConfig": {
-    "@seanvelasco:registry": "https://npm.pkg.github.com"
-  }
+  "types": "./build/index.d.ts"
 }
