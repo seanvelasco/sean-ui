@@ -1,0 +1,40 @@
+{
+  "name": "@seanvelasco/sean-ui",
+  "version": "1.0.0",
+  "description": "Minimalist React components library",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "seanvelasco <seanvelasco@ieee.org> (seanvelasco.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "react": "^18.1.0",
+    "rollup": "^2.73.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.8.1"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "library"
+  ],
+  "types": "./build/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/seanvelasco"
+  }
+}
