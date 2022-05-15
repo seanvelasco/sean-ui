@@ -1,6 +1,6 @@
 {
   "name": "@seanvelasco/sean-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalist React components library",
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
@@ -35,6 +35,6 @@
   ],
   "types": "./build/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/seanvelasco"
+    "@seanvelasco:registry": "https://npm.pkg.github.com"
   }
 }
